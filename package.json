@@ -9,6 +9,7 @@
     "clean:cache": "rimraf ./**/dist && rimraf ./**/storybook-static && rimraf ./**/node_modules && npm install"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.25.0",
     "turbo": "^1.5.6"
   }
 }
